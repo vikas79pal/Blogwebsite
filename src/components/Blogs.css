@@ -1,0 +1,53 @@
+.hashtag{
+color: blue;
+padding: 3px;
+font-size: 11px;
+cursor: pointer;
+text-decoration: underline;
+}
+.cards{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 14px;
+    color: rgb(68, 64, 64);
+width: 100%;
+display: flex;
+/* flex-wrap: wrap; */
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.date{
+    margin-bottom: 6px;
+}
+.category{
+    font-weight: bold;
+    text-decoration: double;
+    color: black;
+}
+.card{
+width: 40%;
+/* border: 2px solid black; */
+
+margin-bottom: 20px;
+}
+.author{
+    font-size: 14px;
+    font-style: italic;
+
+}
+.loading{
+font-weight: bold;
+}
+.title{
+font-size: 18px;
+font-weight: bolder;
+margin-bottom: 2px;
+color: black;
+}
+.content{
+color: black;
+margin-bottom: 4px;
+}
